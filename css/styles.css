@@ -1,7 +1,6 @@
 
 body {
     color: var(--slate-color);
-    line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,6 +35,10 @@ body {
     color: #2E2F42 ;
 }
 
+.navigation-list {
+    list-style: none;
+}
+
 .list-studio,
 .list-portfolio,
 .list-contacts {
@@ -54,6 +57,10 @@ body {
 .list-portfolio:active,
 .list-contacts:active {
     color: var(--iris-color);
+}
+
+.header-list {
+    list-style: none;
 }
 
 .list-mail,
@@ -96,16 +103,39 @@ body {
 
 /* feature section */
 
+.feature-list {
+    list-style: none;
+}
+
 .strategy-title,
 .punctuality-title,
 .diligence-title,
 .technologies-title {
     line-height: 1.2;
     color: var(--navyblue-color);
+    font-weight: 500;
+    font-size: 20px;
 }
+
+.strategy-text,
+.punctuality-text,
+.diligence-text,
+.technologies-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* tasks section */
 
 .tasks-title {
     color: var(--navyblue-color);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.tasks-list {
+    list-style: none;
 }
 
 /* team section */
@@ -115,6 +145,13 @@ body {
 }
 .team-title {
     color: var(--navyblue-color);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.team-list {
+    list-style: none;
 }
 
 .markguerrero-title,
@@ -122,6 +159,17 @@ body {
 .camilagarcia-title,
 .danielwilson-title {
     color: var(--navyblue-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.markguerrero-text,
+.tomfold-text,
+.camilagarcia-text,
+.danielwilson-text {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* footer */
@@ -136,11 +184,17 @@ body {
 
 .footer-text {
     color: var(--cornflower-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* portfolio page */
 
 /* button list */
+
+.list-buttons {
+    list-style: none;
+}
 
 .list-all,
 .list-website,
@@ -152,7 +206,16 @@ body {
     cursor: pointer;
     font-family: inherit;
     letter-spacing: 0.04em;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.list-all:hover,
+.list-website:hover,
+.list-app:hover,
+.list-design:hover,
+.list-marketing:hover {
+    background-color: var(--iris-color);
+    color: var(--white-color);
 }
 
 .list-all:active,
@@ -165,6 +228,10 @@ body {
 }
 
 /* photo list */
+
+.photoes-list {
+    list-style: none;
+}
 
 .list-bankapp,
 .list-payment,
@@ -188,9 +255,12 @@ body {
 .organicfood-title,
 .coffee-title {
     color: var(--navyblue-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.bankapp-tex,
+.bankapp-text,
 .payment-text,
 .meditaionapp-text,
 .taxiservice-text,
@@ -199,5 +269,7 @@ body {
 .instagram-text,
 .organicfood-text,
 .coffee-text {
-    color: var(--slate-color)
+    color: var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
