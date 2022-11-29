@@ -1,0 +1,159 @@
+body {
+    color: #434455;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/* main page */
+
+/* header */
+
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+    line-height: 1.3;
+}
+
+.header-logo-studio {
+    color: #2E2F42 ;
+}
+
+.list-studio,
+.list-portfolio,
+.list-contacts {
+    text-decoration: none;
+    font-weight: 600;
+    color: #2E2F42;
+}
+
+.list-studio:hover,
+.list-portfolio:hover,
+.list-contacts:hover {
+    color: #434455;
+}
+
+.list-studio:active,
+.list-portfolio:active,
+.list-contacts:active {
+    color: #4D5AE5;
+}
+
+.list-mail,
+.list-tel {
+    text-decoration: none;
+    color: #434455;
+
+}
+
+/* hero section */
+
+.hero {
+    background-color: #2E2F42;
+
+}
+
+.hero-title {
+    color: #ffffff;
+    
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:active {
+    background-color: #404BBF;
+}
+
+/* feature section */
+
+.strategy-title,
+.punctuality-title,
+.diligence-title,
+.technologies-title {
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.tasks-title {
+    color: #2E2F42;
+}
+
+/* team section */
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color: #2E2F42;
+}
+
+.designer-title,
+.developer-title,
+.marketing-title,
+.ui-title {
+    color: #2E2F42;
+}
+
+/* footer */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo-studio {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
+/* portfolio page */
+/* button section */
+
+.list-all,
+.list-website,
+.list-app,
+.list-design,
+.list-marketing {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.list-all:active,
+.list-website:active,
+.list-app:active,
+.list-design:active,
+.list-marketing:active {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+/* photo section */
+
+.bankapp-title,
+.payment-title,
+.meditaionapp-title,
+.taxiservice-title,
+.screen-title,
+.courses-title,
+.instagram-title,
+.organicfood-title,
+.coffee-title {
+    color: #2E2F42;
+}
+
+
+
